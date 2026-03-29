@@ -1,0 +1,5 @@
+ The Bug: The code had a "Hardcoded Password" (the password was written directly in the script.
+
+ The Danger: If a hacker gets the file, they get the password. In Embedded Systems, this would allow someone to take over the hardware.
+
+ The Solution: I used the os library to hide the password. This is "Best Practice" for secure engineering.
